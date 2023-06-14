@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Nahuan - Desenvolvedor(a) Python Fullstack</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS -->
+</head>
+
+<body>
+    <header class="sticky">
+        <div class="header-container">
+            <div class="logo">
+                <img src="caminho/do/seu/logo.png" alt="Logo">
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a href="https://github.com/NahDev" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/nahuan-barreto" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="about">
+            <h2>Sobre Nahuan</h2>
+            <p>Sou um desenvolvedor Python fullstack apaixonado(a) por criar soluções inovadoras e escaláveis. Com
+                anos de experiência no desenvolvimento web, estou sempre buscando aprimorar minhas habilidades e
+                aprender novas tecnologias.</p>
+        </section>
+
+        <section class="services">
+            <h2>Serviços oferecidos</h2>
+            <ul>
+                <li>Desenvolvimento web personalizado com Python e suas principais frameworks (Django, Flask)</li>
+                <li>Criação de APIs RESTful para integração de sistemas</li>
+                <li>Implementação de bancos de dados relacionais e não-relacionais</li>
+                <li>Design de interfaces de usuário intuitivas e responsivas</li>
+                <li>Manutenção e otimização de aplicações existentes</li>
+                <li>Colaboração em equipes de desenvolvimento ágil</li>
+            </ul>
+        </section>
+      
+        <section class="projects">
+            <h2>Projetos recentes</h2>
+            <!-- Inclua aqui a apresentação de projetos destacados -->
+        </section>
+
+        <section class="contact">
+            <h2>Entre em contato</h2>
+            <form action="enviar_email.php" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Nahuan - Desenvolvedor(a) Python Fullstack. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
